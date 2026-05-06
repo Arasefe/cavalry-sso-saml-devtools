@@ -1,0 +1,14 @@
+{
+  "name": "cavalry-dev-tools",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": { "start": "node app.js", "dev": "nodemon app.js" },
+  "dependencies": {
+    "@node-saml/passport-saml": "^5.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": { "nodemon": "^3.1.0" }
+}
