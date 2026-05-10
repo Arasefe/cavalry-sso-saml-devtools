@@ -165,4 +165,4 @@ function requireAuth(req, res, next) {
 }
 
 const PORT = process.env.PORT || 3002;
-app.listen(PORT, () => console.log(`cavalry-dev-tools  →  http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`cavalry-sso-saml-devtools  →  http://localhost:${PORT}`));
